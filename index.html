@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Denise Garcia Silva</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- MENU FIXO -->
+<nav class="navbar">
+            <header>
+            <h1 class="logo">Portfólio - Denise Garcia Silva</h1>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <!-- menu mobile -->
+            <button class="btn-mobile" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="section">
+        <br> <br> <br>
+        <h2>Sobre mim</h2>
+        <p>Olá! Meu nome é <strong>Denise</strong>, sou Assistente Fiscal na AFP Materiais de Construção LTDA e estudante do curso de Ciência de Dados da UNINTER e este é meu portfólio pessoal. Aqui você encontrará informações sobre minha formação, projetos e formas de contato. </p>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="section">
+         <br> <br> <br>
+        <h2>Formação</h2>
+        <ul>
+            <li><strong>Curso superior:</strong> Ciência de Dados – UNINTER</li>
+            <li><strong>Cursos profissionalizantes:</strong> Cientista de Dados – Escola DNC</li>
+        </ul>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portfolio" class="section">
+         <br> <br> <br>
+        <h2>Portfólio</h2>
+        <ul>
+            <li><a href="#">Projeto 1 – Análise de Dados</a></li>
+            <li><a href="#">Projeto 2 – Dashboard Python</a></li>
+            <li><a href="#">Projeto 3 – Página Web simples</a></li>
+        </ul>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+         <br> <br> <br>
+        <h2>Contato</h2>
+
+        <form id="formContato" onsubmit="return enviarFormulario()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js" defer></script>   
+</body>
+</html>
