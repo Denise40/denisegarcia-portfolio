@@ -1,4 +1,4 @@
-# Portfólio Pessoal – Seu Nome
+# Portfólio Pessoal – Denise Garcia Silva
 
 Este é o meu portfólio desenvolvido para a disciplina **Fundamentos da Programação Web – UNINTER**.
 
