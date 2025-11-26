@@ -3,9 +3,7 @@
 Este é o meu portfólio desenvolvido para a disciplina **Fundamentos da Programação Web – UNINTER**.
 
 ## 🔗 Links Importantes
-- **Site publicado (GitHub Pages):** 
-git remote add origin https://github.com/Denise40/denisegarcia-portfolio.git
-git push -u origin main 
+- **Site publicado (GitHub Pages):** https://denise40.github.io/denisegarcia-portfolio/ 
 - **Repositório no GitHub:** https://github.com/Denise40/denisegarcia-portfolio 
 
 ## 🛠 Tecnologias Utilizadas
